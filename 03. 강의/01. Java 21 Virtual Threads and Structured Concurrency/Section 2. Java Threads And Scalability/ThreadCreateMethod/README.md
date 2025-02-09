@@ -1,4 +1,4 @@
-## Virtual Thread¸¦ »ı¼ºÇÏ´Â ¹æ¹ı
+## Virtual Threadë¥¼ ìƒì„±í•˜ëŠ” ë°©ë²•
 - 1. Static
 - 2. Builder
 - 3. Factory

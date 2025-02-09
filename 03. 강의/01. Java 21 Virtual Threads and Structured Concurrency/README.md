@@ -2,7 +2,7 @@
 - https://www.udemy.com/course/virtual-threads/
 
 ---
-## Áß¿ä ¿ë¾î
+## ì¤‘ìš” ìš©ì–´
 - IO, NIO
 - Network bound, Database bound
 - Virtual thread, Platform thread, OS thread

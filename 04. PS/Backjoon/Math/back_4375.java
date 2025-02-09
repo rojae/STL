@@ -7,17 +7,17 @@ public class back_4375 {
     public static void main(String args[]) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        // ÀÔ·ÂÀÌ ÀÖÀ» ¶§¸¶´Ù °è¼ÓÇØ¼­ Ã³¸®
+        // ì…ë ¥ì´ ìˆì„ ë•Œë§ˆë‹¤ ê³„ì†í•´ì„œ ì²˜ë¦¬
         String line;
         
         while ((line = br.readLine()) != null) {
-            // ºó ÁÙÀ» Ã³¸®ÇÒ ¼ö ÀÖµµ·Ï null Ã¼Å©
+            // ë¹ˆ ì¤„ì„ ì²˜ë¦¬í•  ìˆ˜ ìˆë„ë¡ null ì²´í¬
             if (line.trim().isEmpty()) {
                 continue;
             }
             int n = Integer.parseInt(line);
 
-            // °è»ê±â È£ÃâÇÏ¿© °á°ú Ãâ·Â
+            // ê³„ì‚°ê¸° í˜¸ì¶œí•˜ì—¬ ê²°ê³¼ ì¶œë ¥
             System.out.println(new Calculator().getResult(n));
         }
     }
@@ -30,10 +30,10 @@ public class back_4375 {
             int remainder = 0;
 
             while (true) {
-                // ³ª¸ÓÁö¸¦ °»½Å
+                // ë‚˜ë¨¸ì§€ë¥¼ ê°±ì‹ 
                 remainder = ((10 * remainder) + 1) % n;
                 
-                // ³ª¸ÓÁö°¡ 0ÀÌ¸é ¹è¼ö, °á°ú¸¦ Ãâ·Â
+                // ë‚˜ë¨¸ì§€ê°€ 0ì´ë©´ ë°°ìˆ˜, ê²°ê³¼ë¥¼ ì¶œë ¥
                 if (remainder == 0) {
                     return sz;
                 } else {

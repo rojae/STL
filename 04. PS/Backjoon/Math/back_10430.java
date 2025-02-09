@@ -4,10 +4,10 @@ import java.io.InputStreamReader;
 
 public class back_10430 {
     
-    // Ã¹Â° ÁÙ¿¡ (A+B)%C
-    // µÑÂ° ÁÙ¿¡ ((A%C) + (B%C))%C
-    // ¼ÂÂ° ÁÙ¿¡ (A¡¿B)%C
-    // ³İÂ° ÁÙ¿¡ ((A%C) ¡¿ (B%C))%C¸¦ Ãâ·ÂÇÑ´Ù.
+    // ì²«ì§¸ ì¤„ì— (A+B)%C
+    // ë‘˜ì§¸ ì¤„ì— ((A%C) + (B%C))%C
+    // ì…‹ì§¸ ì¤„ì— (AÃ—B)%C
+    // ë„·ì§¸ ì¤„ì— ((A%C) Ã— (B%C))%Cë¥¼ ì¶œë ¥í•œë‹¤.
 
     public static void main(String args[]) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

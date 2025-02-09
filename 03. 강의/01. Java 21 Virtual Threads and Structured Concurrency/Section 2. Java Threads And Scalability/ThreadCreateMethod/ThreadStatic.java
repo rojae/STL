@@ -1,7 +1,7 @@
 package ThreadCreateMethod;
 
 /**
- * Á¤ÀûÀ¸·Î Virtual Thread¸¦ »ı¼ºÇÏ´Â ¹æ¹ı
+ * ì •ì ìœ¼ë¡œ Virtual Threadë¥¼ ìƒì„±í•˜ëŠ” ë°©ë²•
  */
 public class ThreadStatic {
     public static void main(String args[]) throws InterruptedException{
