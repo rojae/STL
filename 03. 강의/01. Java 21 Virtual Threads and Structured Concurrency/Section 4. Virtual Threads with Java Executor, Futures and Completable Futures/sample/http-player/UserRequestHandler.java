@@ -1,12 +1,15 @@
+import java.time.Duration;
 import java.util.concurrent.Callable;
 
 public class UserRequestHandler implements Callable<String>{
 
     @Override
-    public String call() {
+    public String call() throws InterruptedException {
         // sequential code
         String result1 = dbCall();
         String result2 = restCall();
+        
+        Thread.sleep(Duration.ofMinutes(10));
         
         String result = String.format("[%s, %s]]", result1, result2);
 
