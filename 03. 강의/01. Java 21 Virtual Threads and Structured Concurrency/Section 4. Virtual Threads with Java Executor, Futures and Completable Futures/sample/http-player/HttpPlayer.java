@@ -6,7 +6,7 @@ import java.util.stream.IntStream;
 public class HttpPlayer {
     public static void main(String args[]) {
 
-        final int NUMBER_USERS = 500;
+        final int NUMBER_USERS = 1;
 
         ThreadFactory factory = Thread.ofVirtual().name("request-handler-", 0).factory();
 
