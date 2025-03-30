@@ -57,7 +57,8 @@ private String dbCall1(){
 ```
 
 ## 그래서 어떻게 해결할건데 (JDK Classes)
-- Structured Task Scope
-- SubTask
+- Java 21에서는 이러한 이슈를 해결하기 위해서 아래와 같은 기법을 기술했습니다.
+    - Structured Task Scope
+    - SubTask
 
 
