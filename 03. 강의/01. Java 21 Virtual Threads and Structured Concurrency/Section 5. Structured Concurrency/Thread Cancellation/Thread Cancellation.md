@@ -28,6 +28,12 @@ public boolean isInterrupted()
     - JDK Methods like wait(), slepp(), join() will check status automatically
         - Throws InterruptedException
         - Clear the interrupted status flag 
+- Future
+    ```java
+    // Send an interrupt to child thread
+    Future<TaskResponse> taskFeature = exec.submit(callable);
+    taskFeature.cancel(true)
+    ```
 
 ----
 ## Cooperative Mechanism
