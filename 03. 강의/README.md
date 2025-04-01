@@ -1,4 +1,4 @@
 ## Udemy
-- ¹ø¿ª È®Àå ÇÁ·Î±×·¥
-    - https://chromewebstore.google.com/detail/udemy-%ED%95%9C%EA%B8%80-%EC%9E%90%EB%A7%89-google-%EB%B2%88%EC%97%AD-dee/deobfkgpcfnaelcfeiihpahnejpakgjj?hl=ko
+- ë²ˆì—­ í™•ìž¥ í”„ë¡œê·¸ëž¨
+    - https://chromewebstore.google.com/detail/video-cc-translator-%EB%8F%99%EC%98%81%EC%83%81-%EC%9E%90/fhbpmacbgklobobcieiaoibpjhdnmcfn
 
