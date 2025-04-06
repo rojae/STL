@@ -52,7 +52,9 @@ Spring MVC에서는 \*\*InternalResourceViewResolver(IRVR)\*\*가 항상 모든 
 ## 추가 설명: Spring Boot JAR vs WAR의 ServletContext 경로 동작
 
 - **WAR 패키지 배포**: `src/main/webapp` 내의 리소스들은 WAR에 그대로 포함되어, **웹 애플리케이션 루트 경로**로 인식됩니다. `/WEB-INF/tiles/empty.jsp`나 `/blog/login.jsp` 모두 외부 톰캣이든 내장 톰캣이든 접근 가능한 경로로 존재하게 됩니다.
-- **JAR 패키지 실행**: 실행가능 JAR는 특수한 ClassLoader를 통해 동작하므로, `webapp` 디렉토리가 클래스패스에 자동 포함되지 않습니다. 대신 Spring Boot는 `static/`, `templates/`, `META-INF/resources/` 등의 클래스패스 리소스를 웹루트로 매핑합니다. 따라서 JSP처럼 **ServletContext 경로가 필요한 자원**은 `META-INF/resources` 하위로 넣어주어야 `ServletContext.getResource("/...")`나 `RequestDispatcher.forward()`가 올바르게 동작합니다. 이 점을 이해하고 JSP 위치를 조정하는 것이 핵심입니다.
+- **JAR 패키지 실행**: 실행가능 JAR는 특수한 ClassLoader를 통해 동작하므로, `webapp` 디렉토리가 클래스패스에 자동 포함되지 않습니다. 대신 Spring Boot는 `static/`, `templates/`, `META-INF/resources/` 등의 클래스패스 리소스를 웹루트로 매핑합니다. 따라서 JSP처럼 **ServletContext 경로가 필요한 자원**은 `META-INF/resources` 하위로 넣어주어야 `ServletContext.getResource("/...")`나 `RequestDispatcher.forward()`가 올바르게 동작합니다. [이점을](https://stackoverflow.com/questions/56537151/why-does-spring-boot-not-support-jsp-while-it-can-render-the-page-if-we-add-prop#:~:text=The%20main%20reason%20why%20springboot,as%20packaging%20it%20should%20work
+) 이해하고 JSP 위치를 조정하는 것이 핵심입니다.
+
 
 以上 조치를 통해 **Tiles 3 기반의 JSP 뷰**를 Spring Boot 환경에서 문제없이 서비스할 수 있습니다. 정리하면, **JSP 파일의 위치/패키징 문제 해결**, **중복 뷰리졸버 정리**, **내장 톰캣 JSP 서블릿 활성화**가 404 오류 해결과 빈 레이아웃 적용의 포인트입니다.
 
