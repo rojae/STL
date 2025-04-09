@@ -73,7 +73,7 @@ src/main/resources/META-INF/resources/blog/login.jsp
 server.servlet.register-default-servlet=true
 ```
 
-ViewResolver 수동 설정 (선택):
+ViewResolver 수동 설정 (선택) :
 
 ```java
 @Bean
