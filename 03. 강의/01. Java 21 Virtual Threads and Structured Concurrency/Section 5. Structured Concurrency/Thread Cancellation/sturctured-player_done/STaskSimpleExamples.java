@@ -1,12 +1,8 @@
-package com.mudra;
-
 import java.time.Duration;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.StructuredTaskScope;
 import java.util.concurrent.StructuredTaskScope.Subtask;
 import java.util.concurrent.StructuredTaskScope.Subtask.State;
-
-import com.mudra.LongRunningTask.TaskResponse;
 
 public class STaskSimpleExamples {
     
@@ -16,10 +12,9 @@ public class STaskSimpleExamples {
         
         // Simulate interrupt to the Main Thread before Child threads complete
         //interruptMain();
-        exampleShutdownOnFailure();
+        exampleCompleteAllTasks();
         
         System.out.println("Main : Completed");
-
     }
     
     private static void exampleShutdownOnFailure() 

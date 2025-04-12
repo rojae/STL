@@ -1,5 +1,3 @@
-package com.mudra.assignment;
-
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
@@ -7,9 +5,6 @@ import java.util.concurrent.StructuredTaskScope;
 import java.util.concurrent.StructuredTaskScope.Subtask;
 import java.util.concurrent.StructuredTaskScope.Subtask.State;
 import java.util.stream.Collectors;
-
-import com.mudra.LongRunningTask;
-import com.mudra.LongRunningTask.TaskResponse;
 
 /**
  * This class showcases the use of StructuredTaskScope used in 
@@ -39,7 +34,7 @@ public class STaskScopeExecutor {
      * Run the collection of tasks in parallel, terminate them by the end of the
      * method and return a consolidated result. 
      */
-    private static Map<String,TaskResponse> execute(Collection<LongRunningTask> tasks) 
+    private static Map<String, TaskResponse> execute(Collection<LongRunningTask> tasks)
             throws InterruptedException {
         
         try(var scope = new StructuredTaskScope<TaskResponse>()) {

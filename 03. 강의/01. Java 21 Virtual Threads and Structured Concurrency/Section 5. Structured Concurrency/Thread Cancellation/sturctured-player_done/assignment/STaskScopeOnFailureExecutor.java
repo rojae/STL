@@ -1,5 +1,3 @@
-package com.mudra.assignment;
-
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
@@ -8,9 +6,6 @@ import java.util.concurrent.StructuredTaskScope;
 import java.util.concurrent.StructuredTaskScope.Subtask;
 import java.util.concurrent.StructuredTaskScope.Subtask.State;
 import java.util.stream.Collectors;
-
-import com.mudra.LongRunningTask;
-import com.mudra.LongRunningTask.TaskResponse;
 
 
 /**
@@ -52,7 +47,7 @@ public class STaskScopeOnFailureExecutor {
         try(var scope = new StructuredTaskScope.ShutdownOnFailure()) {
         
             // start running the tasks in parallel 
-            List<Subtask<TaskResponse>> subTasks 
+            List<Subtask<TaskResponse>> subTasks
                 = tasks.stream().map(scope::fork).toList();
     
             // wait till all are successful OR first failed task

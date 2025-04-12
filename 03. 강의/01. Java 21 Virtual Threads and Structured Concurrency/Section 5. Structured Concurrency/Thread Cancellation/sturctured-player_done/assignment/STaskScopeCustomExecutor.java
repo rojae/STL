@@ -1,15 +1,9 @@
-package com.mudra.assignment;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.StructuredTaskScope;
 import java.util.concurrent.StructuredTaskScope.Subtask;
-
-import com.mudra.LongRunningTask;
-import com.mudra.LongRunningTask.TaskResponse;
-
 
 /**
  * This class showcases the use of Custom implementation of StructuredTaskScope. 
@@ -65,7 +59,7 @@ public class STaskScopeCustomExecutor {
 
 class AverageWeatherTaskScope extends StructuredTaskScope<TaskResponse> {
     
-    private final List<Subtask<? extends TaskResponse>> responses 
+    private final List<Subtask<? extends TaskResponse>> responses
             = Collections.synchronizedList(new ArrayList<>());
 
     @Override

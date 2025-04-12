@@ -1,4 +1,4 @@
-package com.mudra;
+
 
 import java.util.Collection;
 import java.util.List;
@@ -6,8 +6,6 @@ import java.util.concurrent.CompletionService;
 import java.util.concurrent.ExecutorCompletionService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
-
-import com.mudra.LongRunningTask.TaskResponse;
 
 /*
  * This example showcases a mechanism to handle parallel tasks 
@@ -56,7 +54,7 @@ public class CompletionServiceExample {
             }
             
             // All tasks are successful at this point
-            List<TaskResponse> result 
+            List<TaskResponse> result
             	= taskFutures.stream().map(Future::resultNow).toList();
             
             System.out.println(result);
