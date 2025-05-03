@@ -38,7 +38,11 @@ public class STaskSimpleShutdownOnSuccessExample {
             scope.join();
             
             // Handle Successful Child Task
-            TaskResponse result = scope.result(t -> new Exception(t));
+            TaskResponse result = scope.result(t -> {
+                // can handle the exception customly
+                return new Exception(t);
+            });
+            
             System.out.println(result);
         }
     }
