@@ -19,6 +19,8 @@ public class STaskSimpleShutdownOnFaliureExample {
 
     /**
      * expedia-task is failure and hotwire-task is success
+     * ShutdownOnFailure is used to cancel all other tasks 
+     * (If one task fail then all other tasks are cancelled)
      * @throws Exception 
      */
     private static void exampleCompleteAllTasks() throws Exception {

@@ -211,27 +211,7 @@ public class STaskSimpleExamples {
     }
     
     
-    private static void exampleShutdownOnSuccess() throws InterruptedException, ExecutionException {
-        
-        try(var scope = new StructuredTaskScope.ShutdownOnSuccess<TaskResponse>()) {
-            
-            var wthr1Task = new LongRunningTask("Weather-1", 3,  "32", true);
-            var wthr2Task = new LongRunningTask("Weather-2", 10, "30", true);
-            
-            // Start running the tasks in parallel 
-            Subtask<TaskResponse> subTask1 = scope.fork(wthr1Task);
-            Subtask<TaskResponse> subTask2 = scope.fork(wthr2Task);
-        
-            // Wait till first Child Task Succeeds. Send Cancellation
-            // to all other Child Tasks
-            scope.join();
-            
-            // Handle Successful Child Task
-            TaskResponse result = scope.result();
-            System.out.println(result);
-        }
-        
-    }
+
     
     
 
