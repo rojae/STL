@@ -1,6 +1,6 @@
 package kr.rojae.threadlocal;
 
-import kr.rojae.threadlocal.user.User;
+import kr.rojae.user.User;
 
 /*
  * - Child thread will see the thread local values of the Parent. 

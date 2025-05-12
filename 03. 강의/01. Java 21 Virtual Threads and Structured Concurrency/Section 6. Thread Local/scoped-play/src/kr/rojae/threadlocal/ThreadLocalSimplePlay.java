@@ -1,7 +1,7 @@
 package kr.rojae.threadlocal;
 
-import kr.rojae.threadlocal.user.User;
-import kr.rojae.threadlocal.user.UserHandler;
+import kr.rojae.user.User;
+import kr.rojae.user.UserHandler;
 
 /**
  * Simple example with a Single Thread. Demonstrates use of Thread Local

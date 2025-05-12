@@ -1,4 +1,4 @@
-package kr.rojae.threadlocal.user;
+package kr.rojae.user;
 
 import kr.rojae.threadlocal.ThreadLocalSimplePlay;
 

@@ -1,6 +1,6 @@
 package kr.rojae.threadlocal;
 
-import kr.rojae.threadlocal.user.User;
+import kr.rojae.user.User;
 
 /*
  * Main and Child Thread can set different User object in Threadlocal.
