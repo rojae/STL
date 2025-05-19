@@ -6,7 +6,7 @@ import com.mudra.user.User;
 /*
  * Advantages
  *   - Scoped Value only available for use within the dynamic scope of the method 
- *      - during the bounded period of execution of a method
+ *      - during the bounded period of execution of a method.
  *      - bound during start of scope and unbounded during end of scope (even exception)
  *   - Rebinding allowed but cannot modify Scoped Value
  *   - No cleanup required. automatically handled
