@@ -25,3 +25,12 @@
 | 152 | Maximum Product Subarray | Medium | [Link](https://leetcode.com/problems/maximum-product-subarray/) |
 | 153 | Find Minimum in Rotated Sorted Array | Medium | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |
 | 238 | Product of Array Except Self | Medium | [Link](https://leetcode.com/problems/product-of-array-except-self/) |
+
+### 2026.1.4
+
+| # | Problem | Difficulty | Link |
+|---|---------|------------|------|
+| 11 | Container With Most Water | Medium | [Link](https://leetcode.com/problems/container-with-most-water/) |
+| 15 | 3Sum | Medium | [Link](https://leetcode.com/problems/3sum/) |
+| 70 | Climbing Stairs | Easy | [Link](https://leetcode.com/problems/climbing-stairs/) |
+| 322 | Coin Change | Medium | [Link](https://leetcode.com/problems/coin-change/) |
