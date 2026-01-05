@@ -34,3 +34,11 @@
 | 15 | 3Sum | Medium | [Link](https://leetcode.com/problems/3sum/) |
 | 70 | Climbing Stairs | Easy | [Link](https://leetcode.com/problems/climbing-stairs/) |
 | 322 | Coin Change | Medium | [Link](https://leetcode.com/problems/coin-change/) |
+
+### 2026.1.5
+
+| # | Problem | Difficulty | Link |
+|---|---------|------------|------|
+| 139 | Word Break | Medium | [Link](https://leetcode.com/problems/word-break/) |
+| 300 | Longest Increasing Subsequence | Medium | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) |
+| 1143 | Longest Common Subsequence | Medium | [Link](https://leetcode.com/problems/longest-common-subsequence/) |
