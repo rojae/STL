@@ -42,3 +42,10 @@
 | 139 | Word Break | Medium | [Link](https://leetcode.com/problems/word-break/) |
 | 300 | Longest Increasing Subsequence | Medium | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) |
 | 1143 | Longest Common Subsequence | Medium | [Link](https://leetcode.com/problems/longest-common-subsequence/) |
+
+### 2026.1.7
+
+| # | Problem | Difficulty | Link |
+|---|---------|------------|------|
+| 39 | Combination Sum | Medium | [Link](https://leetcode.com/problems/combination-sum/) |
+| 198 | House Robber | Medium | [Link](https://leetcode.com/problems/house-robber/) |
