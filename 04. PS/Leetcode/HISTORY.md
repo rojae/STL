@@ -50,3 +50,11 @@
 | 39 | Combination Sum | Medium | [Link](https://leetcode.com/problems/combination-sum/) |
 | 198 | House Robber | Medium | [Link](https://leetcode.com/problems/house-robber/) |
 | 213 | House Robber II | Medium | [Link](https://leetcode.com/problems/house-robber-ii/) |
+
+### 2026.1.8
+
+| # | Problem | Difficulty | Link |
+|---|---------|------------|------|
+| 55 | Jump Game | Medium | [Link](https://leetcode.com/problems/jump-game/) |
+| 62 | Unique Paths | Medium | [Link](https://leetcode.com/problems/unique-paths/) |
+| 91 | Decode Ways | Medium | [Link](https://leetcode.com/problems/decode-ways/) |
