@@ -77,3 +77,9 @@
 |---|---------|------------|------|
 | 207 | Course Schedule | Medium | [Link](https://leetcode.com/problems/course-schedule/) |
 | 417 | Pacific Atlantic Water Flow | Medium | [Link](https://leetcode.com/problems/pacific-atlantic-water-flow/) |
+
+### 2026.1.12
+
+| # | Problem | Difficulty | Link |
+|---|---------|------------|------|
+| 200 | Number of Islands | Medium | [Link](https://leetcode.com/problems/number-of-islands/) |
