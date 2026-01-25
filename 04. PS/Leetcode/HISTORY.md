@@ -83,3 +83,13 @@
 | # | Problem | Difficulty | Link |
 |---|---------|------------|------|
 | 200 | Number of Islands | Medium | [Link](https://leetcode.com/problems/number-of-islands/) |
+
+### 2026.1.26 (Review)
+
+| # | Problem | Difficulty | Link |
+|---|---------|------------|------|
+| 1 | Two Sum | Easy | [Link](https://leetcode.com/problems/two-sum/) |
+| 53 | Maximum Subarray | Medium | [Link](https://leetcode.com/problems/maximum-subarray/) |
+| 121 | Best Time to Buy and Sell Stock | Easy | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
+| 217 | Contains Duplicate | Easy | [Link](https://leetcode.com/problems/contains-duplicate/) |
+| 238 | Product of Array Except Self | Medium | [Link](https://leetcode.com/problems/product-of-array-except-self/) |
