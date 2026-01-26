@@ -91,5 +91,17 @@
 | 1 | Two Sum | Easy | [Link](https://leetcode.com/problems/two-sum/) |
 | 53 | Maximum Subarray | Medium | [Link](https://leetcode.com/problems/maximum-subarray/) |
 | 121 | Best Time to Buy and Sell Stock | Easy | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
+| 152 | Maximum Product Subarray | Medium | [Link](https://leetcode.com/problems/maximum-product-subarray/) |
+| 153 | Find Minimum in Rotated Sorted Array | Medium | [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |
 | 217 | Contains Duplicate | Easy | [Link](https://leetcode.com/problems/contains-duplicate/) |
 | 238 | Product of Array Except Self | Medium | [Link](https://leetcode.com/problems/product-of-array-except-self/) |
+
+### 2026.1.27 (Review)
+
+| # | Problem | Difficulty | Link |
+|---|---------|------------|------|
+| 11 | Container With Most Water | Medium | [Link](https://leetcode.com/problems/container-with-most-water/) |
+| 15 | 3Sum | Medium | [Link](https://leetcode.com/problems/3sum/) |
+| 70 | Climbing Stairs | Easy | [Link](https://leetcode.com/problems/climbing-stairs/) |
+| 300 | Longest Increasing Subsequence | Medium | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) |
+| 322 | Coin Change | Medium | [Link](https://leetcode.com/problems/coin-change/) |
