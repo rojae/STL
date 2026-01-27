@@ -104,4 +104,17 @@
 | 15 | 3Sum | Medium | [Link](https://leetcode.com/problems/3sum/) |
 | 70 | Climbing Stairs | Easy | [Link](https://leetcode.com/problems/climbing-stairs/) |
 | 300 | Longest Increasing Subsequence | Medium | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) |
+| 39 | Combination Sum | Medium | [Link](https://leetcode.com/problems/combination-sum/) |
+| 139 | Word Break | Medium | [Link](https://leetcode.com/problems/word-break/) |
+| 198 | House Robber | Medium | [Link](https://leetcode.com/problems/house-robber/) |
+| 300 | Longest Increasing Subsequence | Medium | [Link](https://leetcode.com/problems/longest-increasing-subsequence/) |
 | 322 | Coin Change | Medium | [Link](https://leetcode.com/problems/coin-change/) |
+
+### 2026.1.28 (Review)
+
+| # | Problem | Difficulty | Link |
+|---|---------|------------|------|
+| 39 | Combination Sum | Medium | [Link](https://leetcode.com/problems/combination-sum/) |
+| 139 | Word Break | Medium | [Link](https://leetcode.com/problems/word-break/) |
+| 198 | House Robber | Medium | [Link](https://leetcode.com/problems/house-robber/) |
+| 1143 | Longest Common Subsequence | Medium | [Link](https://leetcode.com/problems/longest-common-subsequence/) |
