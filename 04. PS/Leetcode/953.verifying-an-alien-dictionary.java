@@ -23,7 +23,7 @@ class Solution {
         return true;
     }
 
-        private boolean isOrdered(String word1, String word2, int[] priority) {
+    private boolean isOrdered(String word1, String word2, int[] priority) {
         int minLen = Math.min(word1.length(), word2.length());
         
         for (int i = 0; i < minLen; i++) {
